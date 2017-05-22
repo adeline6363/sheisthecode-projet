@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--definition du type de document-->
+<!DOCTYPE kof [
+<!ELEMENT kof (présentation)*>
+<!ELEMENT présentation (nom,prénoms,age,email,tel,niveau ,commune,spécialisation,instructeur,groupe)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prénoms (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tel  (#PCDATA)>
+<!ELEMENT niveau (#PCDATA)>
+<!ELEMENT commune (#PCDATA)>
+<!ELEMENT spécialisation  (#PCDATA)>
+<!ELEMENT instructeur (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>
+
+
+
+]>
+<!--<!ELEMENT NOM(contenu) ici on defint l'element et son contenu> -->
+
+
+
+<kof>
+	<présentation>
+		
+    <nom>Koffi</nom>
+    <prénoms>Affoue Sonia</prénoms>
+	<age>26 ans</age>
+	<email>kaffouesonia@gmail.com</email>
+    <tel>22559433761</tel>
+    <niveau>bac+2</niveau>
+    <commune>marcory</commune>
+    <spécialisation>coding</spécialisation>
+    <instructeur>Fabien Gahe</instructeur>
+    <groupe>CB</groupe>
+
+
+
+	</présentation>
+
+
+
+</kof>
+
+<!--ici il s'agit de notre fichier xml valide et nous utilisons la definition de notre document ci_dessus -->
+<!--c'est une dtd interne elle est donc independante -->
+
+
+
+
+
+
+	
+
+	
